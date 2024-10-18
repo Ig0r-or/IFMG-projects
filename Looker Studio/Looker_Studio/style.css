@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h_Display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.nome_Container {
+    text-align: center;
+}
+
+.nome {
+    color:#4f4f4f;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.curso {
+    color: #1e691e;
+    font-weight: bold;
+}
+
+.reside_Display {
+    display: flex;
+    align-items: center;
+}
+
+hr {
+  width: 100%;
+  background-color: #4f4f4f;
+  margin: 5px 0 15px 0
+}
+
+main {
+    height: 150px
+}
+
+footer {
+  text-align: center;
+}
+
+.link {
+    color: green;
+background-color: green;
+}
