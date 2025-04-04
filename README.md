@@ -7,6 +7,11 @@ Descrição: Esta tabela exibe informações relacionadas aos convênios de empr
   [Veja Banco de Talentos-Instituto Federal no Looker Studio](https://lookerstudio.google.com/reporting/c4ba7233-ec65-49ed-b70e-c0268d60215b)<div>
 Descrição: Este Banco de Talentos oferece uma interface onde empresas podem visualizar e selecionar potenciais estagiários com base em suas informações acadêmicas e profissionais.
     </div> 
+
+  # Agenda
+  [Veja a Agenda de eventos Proex 2025](https://agendaproex2025.42web.io/)<div>
+Descrição: Agenda criada em HTML com Google App Script para a visualização de eventos Proex 2025.
+    </div> 
 # Almoxarifado Virtual(em processo)
   [Veja Almoxarifado (atual versão 0.8.5)](http://almoxarifado.wuaze.com/)<div>
 Descrição: Tendo identificado a necessidade e a falta de um melhor manuseio dos itens, decidi implementar este pequeno site para solucionar os problemas de organização e estoque dos itens utilizados em eventos de extensão.
