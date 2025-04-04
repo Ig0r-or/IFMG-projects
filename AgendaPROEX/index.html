@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon-32x32.png">
+    <title>Agenda PROEX</title>
+    <style>
+        body {
+            background-color: rgba(127, 255, 212, 0.308);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .loader {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-40%, -40%);
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .page-title {
+            background-color: #0c6c1c;
+            color: #fff;
+            padding: 20px;
+            margin: 0 -20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            border-radius: 13px;
+        }
+
+        .section {
+            border: 2px solid #0c6c1c;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            position: relative;
+            top: 20px;
+            left: 0;
+            width: 100%;
+            box-sizing: border-box;
+            transition: transform 0.3s;
+        }
+
+        .section:hover {
+            transform: scale(1.02);
+        }
+
+        .section h3 {
+            color: #0c6c1c;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .section a {
+            color: #0000ff;
+            text-decoration: none;
+        }
+
+        .section a:hover {
+            text-decoration: underline;
+        }
+        
+        .iframe-agenda iframe{
+            width: 100%;
+            height: 600px;
+            border: 2px solid #0c6c1c;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 600px) {
+            .section p {
+                font-size: 14px;
+            }
+        }
+    </style>
+    <script>
+        function showLoader() {
+            document.getElementById('loader').style.display = 'block';
+        }
+        function hideLoader() {
+            document.getElementById('loader').style.display = 'none';
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+            showLoader(); 
+        });
+        window.addEventListener('load', function () {
+            hideLoader(); 
+        });
+    </script>
+</head>
+<body>
+    <div class="loader" id="loader" style="display: none;">
+        <img src="loading.gif" style="height: auto; width: 80%;" alt="">
+      </div>
+    <div class="content">
+        <h2 class="page-title">
+            Agenda PROEX
+            <a class="page-title-image">   
+            </a>
+        </h2>
+
+        <div class="section">
+            <div class="iframe-agenda"><iframe
+                    src="https://calendar.google.com/calendar/embed?src=c_6d8dd288dda7be98aac37f3da01a10025650fd0aec8b4d5da2d5b83a70d72f7a%40group.calendar.google.com&ctz=America%2FSao_Paulo"></iframe>
+        </div>
+    </div>
+</body>
+
