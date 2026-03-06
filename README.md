@@ -19,4 +19,9 @@ Descrição: Tendo identificado a necessidade e a falta de um melhor manuseio do
    Fluxo: O item é cadastrado pelo servidor, com a possibilidade de editar o Nome e a Quantidade inicial do item. A retirada ocorre mensalmente, por meio de um formulário, sendo registrada e armazenada no banco de dados. Isso permite uma pesquisa mais eficiente sobre quem utilizou o item, para qual finalidade, além de registrar a data da retirada e a quantidade.
 </div>
 
+# Aba Oportunidades CGRI - Assessoria Internacional Ifsuldeminas
+[Veja a aba clicando no link](https://portal.ifsuldeminas.edu.br/index.php/pro-reitoria-extensao/relacoes-internacionais/4382-oportunidades-cgri-2025)<div>
+Descrição: Fui encarregado de criar um estilo para a aba de "Oportunidades CGRI" do setor da Assessoria Internacional do Ifsuldeminas, nela eu construo uma estrutura simples com Html e Css para melhor visualização das oportunidades.
+</div>
+
 
